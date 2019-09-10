@@ -2,6 +2,12 @@
 # RSSwizzle
 Safe method swizzling done right.
 
+```ruby
+pod 'RSSwizzle', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git'
+```
+
+See [pull requests](https://github.com/ElfSundae/RSSwizzle/pulls?q=is%3Apr+is%3Aclosed) for patches.
+
 ## Motivation
 
 Classical method swizzling with `method_exchangeImplementations` is quite simple, but it has a lot of limitations:
